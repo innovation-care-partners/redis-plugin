@@ -1,5 +1,5 @@
 {
-    "name": "leocolomb/wp-redis",
+    "name": "joselinarest/wp-redis",
     "description": "A persistent cache backend for WordPress powered by Redis.",
     "keywords": [
         "wordpress-dropin",
@@ -10,7 +10,7 @@
         "redis",
         "wordpress"
     ],
-    "homepage": "https://github.com/LeoColomb/wp-redis",
+    "homepage": "https://github.com/joselinarest/wp-redis",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
@@ -45,6 +45,6 @@
         ]
     },
     "support": {
-        "issues": "https://github.com/LeoColomb/wp-redis/issues"
+        "issues": "https://github.com/joselinarest/wp-redis/issues"
     }
 }
