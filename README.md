@@ -1,10 +1,7 @@
 # Redis Cache for WordPress
 
 > A persistent cache backend powered by Redis.  
-
-[![Build Status](https://github.com/LeoColomb/wp-redis/workflows/PHP%20CI/badge.svg)](https://github.com/LeoColomb/wp-redis/actions?query=workflow%3APHP%20CI)
-[![Packagist](https://img.shields.io/packagist/v/LeoColomb/wp-redis.svg)](https://packagist.org/packages/LeoColomb/wp-redis)
-
+ 
 ## Features
 
 * Enables the two cache wrappers for WordPress
@@ -28,17 +25,12 @@
     "extra": {
       "dropin-paths": {
         "htdocs/wp-content/": [
-          "package:leocolomb/wp-redis:dropins/object-cache.php",
-          "package:leocolomb/wp-redis:dropins/advanced-cache.php"
+          "package:icp/wp-redis:dropins/object-cache.php",
+          "package:icp/wp-redis:dropins/advanced-cache.php"
         ]
       }
     }
   }
-  ```
-
-* Require the package in your Composer-managed WordPress instance
-  ```bash
-  $ composer require leocolomb/wp-redis
   ```
 
 
@@ -112,10 +104,4 @@ define('WP_REDIS_CLUSTER', [
 ]);
 ```
 
-
-## License
-
-GPL-3.0 © [Léo Colombaro](https://colombaro.fr)
-
-* Eric Mann and Erick Hitter for [Redis Object Cache](https://github.com/ericmann/Redis-Object-Cache)
-* Till Krüss for [tillkruss/redis-cache](https://github.com/tillkruss/redis-cache)
+ 

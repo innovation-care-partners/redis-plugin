@@ -1,5 +1,5 @@
 {
-    "name": "joselinarest/wp-redis",
+    "name": "icp/wp-redis",
     "description": "A persistent cache backend for WordPress powered by Redis.",
     "keywords": [
         "wordpress-dropin",
@@ -10,16 +10,11 @@
         "redis",
         "wordpress"
     ],
-    "homepage": "https://github.com/joselinarest/wp-redis",
+    "homepage": "http://ph-prbit-02.shp.cloud:7990/scm/pw/wp-redis-plugin.git",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
-            "name": "Till Krüss",
-            "homepage": "https://till.im/"
-        },
-        {
-            "name": "Léo Colombaro",
-            "homepage": "https://colombaro.fr/"
+            "name": "Jose Linares",
         }
     ],
     "require": {
@@ -45,6 +40,6 @@
         ]
     },
     "support": {
-        "issues": "https://github.com/joselinarest/wp-redis/issues"
+        "issues": "http://ph-prbit-02.shp.cloud:7990/scm/pw/wp-redis-plugin.git
     }
 }
