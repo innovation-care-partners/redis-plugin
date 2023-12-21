@@ -10,7 +10,7 @@
         "redis",
         "wordpress"
     ],
-    "homepage": "http://ph-prbit-02.shp.cloud:7990/scm/pw/wp-redis-plugin.git",
+    "homepage": "https://github.com/innovation-care-partners/redis-plugin.git",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
@@ -40,6 +40,6 @@
         ]
     },
     "support": {
-        "issues": "http://ph-prbit-02.shp.cloud:7990/scm/pw/wp-redis-plugin.git"
+        "issues": "https://github.com/innovation-care-partners/redis-plugin.git"
     }
 }
